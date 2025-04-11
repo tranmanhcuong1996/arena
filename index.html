@@ -19,13 +19,21 @@
       </div>
       <div class="action-container">
         <div class="btn-action" onclick="attack()"><b>Attack</b></div>
-        <div class="btn-action" onclick="attack()"><b>Skill</b></div>
+        <div class="btn-action"><b>Skill</b></div>
       </div>
       <div
         id="opponent-champion"
         class="character-holder opponent-holder img-monotone"
       >
         <p class="character-name"></p>
+      </div>
+
+      <div class="turn-message danger d-none">
+        <p class="text-danger">OPPONENT TURN!</p>
+      </div>
+
+      <div class="turn-message green d-none">
+        <p class="text-green">YOUR TURN!</p>
       </div>
     </div>
     <script src="character.js"></script>

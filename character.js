@@ -19,6 +19,14 @@ const FEIXIAO = {
   },
 };
 
-const GAME_SETTING = {
-  turn: "user",
-};
+const GAME_SETTING = new Proxy(
+  {
+    turn: "user",
+  },
+  {
+    set(target, key, value) {
+      target[key] = value;
+      return true;
+    },
+  }
+);
