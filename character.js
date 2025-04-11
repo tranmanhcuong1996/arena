@@ -5,6 +5,8 @@ const REONA = {
   name: "Reona",
   stats: {
     hit_point: 1000,
+    attack: 100,
+    defend: 50,
   },
 };
 
@@ -12,6 +14,8 @@ const FEIXIAO = {
   name: "Fei Xiao",
   stats: {
     hit_point: 800,
+    attack: 150,
+    defend: 20,
   },
 };
 
